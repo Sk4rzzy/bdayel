@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joyeux Anniversaire !</title>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Joyeux anniversaire Élise!🎀</h1>
+    <div class="image-row">
+        <img src="hellokitty.png" alt="Hello Kitty" class="cute-image">
+        <img src="mymelody.png" alt="My Melody" class="cute-image">
+        <img src="popupmelody.png" alt="My Melody popup" class="melody-popup" id="melodyPopup">
+
+    </div>
+
+  <button onclick="document.querySelector('.message').style.display='block'">Clique ici 💌</button>
+
+  <div class="message">
+    Douce comme une fraise 🍓 <br>
+    Ses yeux brillent comme des étoiles ✨ <br>
+    Et elle est aussi mignonne qu'un chaton 💖 <br>
+    Élise, je te souhaite un joyeux anniversaire ! 🎀 <br>
+  </div>
+
+  <button onclick="startSurprise()">Cliquez ici pour les confettis (Montez le volume)</button>
+
+  <div class="confetti"></div>
+  <audio id="kittySound" src="hello.mp3".mp3"></audio>
+
+  <div class="hearts">
+    <span style="left:10%;">♡</span>
+    <span style="left:30%;">♡</span>
+    <span style="left:50%;">♡</span>
+    <span style="left:70%;">♡</span>
+    <span style="left:90%;">♡</span>
+  </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
